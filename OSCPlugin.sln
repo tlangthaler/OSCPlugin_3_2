@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSCPlugin", "LumosPluginTemplates\OSCPlugin.csproj", "{698D7249-FFF6-403F-A2E3-63496513398E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSCGUIPlugin", "LumosGUIPluginTemplates\OSCGUIPlugin.csproj", "{C47AC542-8015-4F79-B11A-8A68385765B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchOscLayoutParser", "TouOscLayoutParser\TouchOscLayoutParser.csproj", "{10E8BA28-8766-468F-9D69-A463B506EEDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{F4EBD910-7DDB-49A0-A82B-41A1018503D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{698D7249-FFF6-403F-A2E3-63496513398E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698D7249-FFF6-403F-A2E3-63496513398E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698D7249-FFF6-403F-A2E3-63496513398E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698D7249-FFF6-403F-A2E3-63496513398E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C47AC542-8015-4F79-B11A-8A68385765B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47AC542-8015-4F79-B11A-8A68385765B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47AC542-8015-4F79-B11A-8A68385765B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47AC542-8015-4F79-B11A-8A68385765B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E8BA28-8766-468F-9D69-A463B506EEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E8BA28-8766-468F-9D69-A463B506EEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E8BA28-8766-468F-9D69-A463B506EEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E8BA28-8766-468F-9D69-A463B506EEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4EBD910-7DDB-49A0-A82B-41A1018503D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EBD910-7DDB-49A0-A82B-41A1018503D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EBD910-7DDB-49A0-A82B-41A1018503D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EBD910-7DDB-49A0-A82B-41A1018503D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3028E94-E8D0-4404-9749-088A1B27D80A}
+	EndGlobalSection
+EndGlobal
